@@ -2033,7 +2033,7 @@ exit
     #=================================================
 }
 
-﻿function Start-OSDCloudGUI {
+function Start-OSDCloudGUI {
     <#
     .SYNOPSIS
     OSDCloud imaging using the command line
@@ -2208,9 +2208,8 @@ exit
     #================================================
 }
 
+set-executionpolicy bypass
 
 Invoke-OSDCloud
-
-set-executionpolicy bypass
 
 Start-OSDCloudGUI
